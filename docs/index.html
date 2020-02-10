@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+input[type=text] {
+  width: 100%;
+  padding: 4px 6px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+}
+</style>
+</head>
+<body>
+
+<p>Text fields with borders:</p>
+
+<form>
+  <label for="fname">Text field</label>
+  <input type="text" id="fname" name="fname">
+  <label for="lname">Number field</label>
+  <input pattern="[0-9]*" type="text" id="lname" name="lname">
+</form>
+
+</body>
+</html>
