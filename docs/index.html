@@ -3,8 +3,8 @@
 <head>
 <style> 
 input[type=text] {
-  width: 100%;
-  padding: 4px 6px;
+  width: 30%;
+  padding: 14px 20px;
   margin: 8px 0;
   box-sizing: border-box;
   border: 2px solid red;
@@ -14,12 +14,12 @@ input[type=text] {
 </head>
 <body>
 
-<p>Text fields with borders:</p>
+<p>Приклад дефолтної розкладки з різними типами полів</p>
 
 <form>
-  <label for="fname">Text field</label>
+  <label for="fname">Формат текст</label>
   <input type="text" id="fname" name="fname">
-  <label for="lname">Number field</label>
+  <label for="lname">Формат текст + патерн pattern="[0-9]*" </label>
   <input pattern="[0-9]*" type="text" id="lname" name="lname">
 </form>
 
